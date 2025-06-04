@@ -230,7 +230,7 @@ const ContactForm = () => {
             <Alert>
               <AlertCircle className="h-4 w-4" />
               <AlertDescription className="text-sm text-gray-600">
-                This is a demo form. No actual emails will be sent, but all validation is fully functional.
+                This is a demo form. No actual emails will be sent, but all validation is fully functional. Code by Pratyush.
               </AlertDescription>
             </Alert>
           </div>
