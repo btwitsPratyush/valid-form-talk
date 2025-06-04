@@ -5,7 +5,6 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
-import { Alert, AlertDescription } from '@/components/ui/alert';
 import { CheckCircle, AlertCircle, Mail, User, MessageSquare } from 'lucide-react';
 
 interface FormData {
@@ -224,16 +223,6 @@ const ContactForm = () => {
               )}
             </Button>
           </form>
-
-          {/* Additional Info */}
-          <div className="mt-6 pt-6 border-t border-gray-200">
-            <Alert>
-              <AlertCircle className="h-4 w-4" />
-              <AlertDescription className="text-sm text-gray-600">
-                This is a demo form. No actual emails will be sent, but all validation is fully functional. Code by Pratyush.
-              </AlertDescription>
-            </Alert>
-          </div>
         </CardContent>
       </Card>
     </div>
